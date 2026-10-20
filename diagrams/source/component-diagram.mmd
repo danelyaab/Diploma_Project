@@ -1,0 +1,13 @@
+flowchart TB
+  UI[Mobile UI]
+  VM[Presentation and state layer]
+  UC[Use-case services]
+  HR[Health-data adapter]
+  REPO[Activity repository]
+  GOAL[Goal and reminder services]
+  DB[(Local database)]
+  OS[Health platform and notifications]
+  UI --> VM --> UC
+  UC --> HR --> OS
+  UC --> REPO --> DB
+  UC --> GOAL --> OS
