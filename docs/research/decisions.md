@@ -13,7 +13,7 @@ This draft records the current proposal, interview evidence, and project decisio
 | Repository coordination, architecture, and technology comparison | Bekzhan Danelya | Approved |
 | UX prototype and verification/evaluation | Kazbek Aigerim | Approved |
 
-Each member should confirm or request a change. Record the final allocation and supervisor's comments in the approval table below. Each student should contribute using an individual Git account, and significant changes should be reviewed through a pull request.
+The team recorded these responsibilities as approved on 20 October 2026. Update the table if the team agrees to a change. Each student should contribute using an individual Git account, and significant changes should be reviewed through a pull request.
 
 ## User research evidence
 

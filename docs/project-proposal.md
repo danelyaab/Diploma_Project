@@ -5,7 +5,7 @@
 
 ## Team and supervision
 
-| Member | Cohort | Proposed responsibility (confirm with the team) |
+| Member | Cohort | Approved responsibility |
 |---|---|---|
 | Maratova Oryngul | SE-2426 | Literature review, user discovery, and requirements |
 | Bekzhan Danelya | SE-2426 | Repository coordination, architecture, and technology comparison |
