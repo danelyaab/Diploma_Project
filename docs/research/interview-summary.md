@@ -19,11 +19,11 @@ P01–P03 were conducted in person on 20 October 2026, as confirmed by the team.
 
 ## Results
 
-| Participant code | Date/method | Need or observation (preliminary; recurrence is summarized below) | Counterexample / difference | Requirement IDs affected |
-|---|---|---|---|---|
-| P01 | 20 October 2026 / in person | Does not currently track activity; wants manual activity entry, a daily goal/progress view, an evening reminder, and limited health-data sharing (heart rate only) | No separate answer to the manual-entry prompt; wants weight-loss-related guidance, which is outside the MVP's non-medical scope | FR-02, FR-03, FR-04, FR-06; NFR-01, NFR-07 |
-| P02 | 20 October 2026 / in person | Uses Apple Health; wants to add activities the phone misses, see cycling distance and stair climbing, and review daily/weekly progress | Accepts location and several health measures but rejects personal documents; reminder usefulness depends on timing/activity; mentions menstrual-cycle information and weight goals as individual feature requests | FR-02, FR-03, FR-04, FR-05, FR-06; NFR-01, NFR-07 |
-| P03 | 20 October 2026 / in person | Uses iOS Fitness and a gym app; values activity history, manually editable records, and longer-term statistics and graphs | Does not routinely use reminders; relies on phone availability; would rather not share identity-document details but may provide information if required | FR-02, FR-03, FR-05, FR-06; NFR-01, NFR-02, NFR-03 |
+| Participant code | Date/method | Respondent type (self-reported tracking context) | Need or observation (preliminary; recurrence is summarized below) | Counterexample / difference | Requirement IDs affected |
+|---|---|---|---|---|---|
+| P01 | 20 October 2026 / in person | Potential user; currently does not use an activity-tracking app | Wants manual activity entry, a daily goal/progress view, an evening reminder, and limited health-data sharing (heart rate only) | No separate answer to the manual-entry prompt; wants weight-loss-related guidance, which is outside the MVP's non-medical scope | FR-02, FR-03, FR-04, FR-06; NFR-01, NFR-07 |
+| P02 | 20 October 2026 / in person | Potential user; uses Apple Health | Wants to add activities the phone misses, see cycling distance and stair climbing, and review daily/weekly progress | Accepts location and several health measures but rejects personal documents; reminder usefulness depends on timing/activity; mentions menstrual-cycle information and weight goals as individual feature requests | FR-02, FR-03, FR-04, FR-05, FR-06; NFR-01, NFR-07 |
+| P03 | 20 October 2026 / in person | Potential user; uses iOS Fitness and a gym app | Values activity history, manually editable records, and longer-term statistics and graphs | Does not routinely use reminders; relies on phone availability; would rather not share identity-document details but may provide information if required | FR-02, FR-03, FR-05, FR-06; NFR-01, NFR-02, NFR-03 |
 | P04 (optional) | Pending | Pending | Pending | Pending |
 | P05 (optional) | Pending | Pending | Pending | Pending |
 
