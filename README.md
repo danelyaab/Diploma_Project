@@ -290,7 +290,7 @@ Use GitHub or GitLab with incremental commits. Create YouTrack tasks with IDs an
 | Task | Owner | Due date | Status |
 |---|---|---|---|
 | [MOV-1 — user interviews and scope validation](https://movewell.youtrack.cloud/issue/MOV-1/Conduct-user-interviews-and-validate-project-scope) · [PR #3](https://github.com/danelyaab/Diploma_Project/pull/3) | Aigerim | Confirm in YouTrack | Three in-person interviews recorded for 20 Oct 2026; PR review requested; confirm publication consent and update status in YouTrack |
-| [MOV-2 — literature review](https://movewell.youtrack.cloud/issue/MOV-2/Prepare-literature-review-on-mobile-physical-activity-apps) | Danelya, Oryngul | 22 Oct 2026 | Open |
+| [MOV-2 — literature review](https://movewell.youtrack.cloud/issue/MOV-2/Prepare-literature-review-on-mobile-physical-activity-apps) | Danelya | 22 Oct 2026 | Open |
 | [MOV-3 — prototype review](https://movewell.youtrack.cloud/issue/MOV-3/Review-clickable-MoveWell-prototype-and-confirm-key-user-flows) | Aigerim | 23 Oct 2026 | Open |
 | [MOV-4 — editable architecture diagrams](https://movewell.youtrack.cloud/issue/MOV-4/Maintain-editable-architecture-diagrams-and-exported-views) | Danelya | 22 Oct 2026 | Open |
 | [MOV-5 — supervisor review](https://movewell.youtrack.cloud/issue/MOV-5/Review-project-proposal-requirements-and-prototype-with-supervisor) | Oryngul | 23 Oct 2026 | Open |
