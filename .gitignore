@@ -1,0 +1,31 @@
+# Build and editor output
+.build/
+build/
+dist/
+coverage/
+
+# Dependencies
+node_modules/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+Pods/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+
+# Local data and test exports
+*.sqlite
+*.db
+*.log

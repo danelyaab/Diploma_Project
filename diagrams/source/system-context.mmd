@@ -1,0 +1,5 @@
+flowchart LR
+  U[User] -->|views, logs, sets goals| APP[MoveWell mobile app]
+  APP <-->|permissioned activity records| OS[Apple HealthKit / Android Health Connect]
+  APP -->|local records and preferences| DB[(On-device database)]
+  APP -->|optional reminder| NOTIF[Operating system notifications]
