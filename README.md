@@ -2,7 +2,7 @@
 
 A student engineering project for a mobile application that helps users record physical activity, review personal trends, and keep selected wellness information in one place. The project is in the analysis and design phase. The application is not a medical device and will not diagnose, treat, or replace advice from a healthcare professional.
 
-> **Status:** Pre-defense planning draft for 24 October 2026. Requirements and literature analysis are drafted below. Team and project URLs are now filled in. Proposed role assignments still need team confirmation; user interviews, supervisor review, and runnable implementation remain pending. No interview results or supervisor feedback are fabricated in this README.
+> **Status:** Pre-defense planning draft for 24 October 2026. Three anonymized interview transcripts (P01–P03) and a preliminary synthesis are now recorded. The interview dates/methods and permission to publish the anonymized notes still need confirmation. The sample is small and exploratory. Proposed role assignments and technology decisions need team/supervisor confirmation; supervisor review and runnable implementation remain pending.
 
 ## Project at a glance
 
@@ -23,32 +23,32 @@ A student engineering project for a mobile application that helps users record p
 
 People who want to understand their activity and day-to-day wellbeing may have to use separate tools for steps, exercise sessions, goals, and personal health notes. Existing applications offer many of these functions, but differ in supported devices, data sources, guidance, and privacy controls. Research also reports barriers such as inaccurate or incomplete measurements, poor contextual fit of reminders, cost, technical problems, and reluctance to share personal information.
 
-The project will investigate whether a focused mobile application can make activity records and selected user-entered wellness information easier to review, while making data sources, permissions, and limitations clear. This is a project hypothesis. It must be checked through 3–5 discussions with potential users before requirements are treated as validated.
+The project investigates whether a focused mobile application can make activity records and selected user-entered wellness information easier to review, while making data sources, permissions, and limitations clear. Three exploratory discussions now inform preliminary requirements; the small sample does not validate population-wide needs.
 
 ## Target users and evidence status
 
-The provisional user group is adults who use a smartphone and want a simple way to record everyday physical activity and selected personal wellness measures. The project has not yet confirmed age range, accessibility needs, preferred phone platform, or whether users want wearable integration.
+The provisional user group is adults who use a smartphone and want to record everyday physical activity and review personal trends. Three anonymized interview transcripts are recorded in [`docs/research/interview-summary.md`](docs/research/interview-summary.md). The target age range, accessibility needs, preferred platform, and wearable requirements have not been established.
 
-**User-validation status:** No interviews or client agreement have been supplied or conducted for this draft. The table below records literature-backed considerations and design hypotheses only; these are not statements from interviewed users and do not satisfy the required 3–5 discussions. Complete the planned interviews and replace these hypotheses with anonymized findings.
+**User-validation status:** Three participant interviews (P01–P03) are recorded, meeting the minimum of three discussions in the checkpoint brief. Dates, interview methods, and consent to publish anonymized notes were not included in the supplied material and must be confirmed. Treat findings as exploratory, not representative; one or two additional discussions are optional to broaden the evidence.
 
-| Evidence / hypothesis | Status and source | Candidate requirement to validate |
+| Interview count | Recurring finding across these interviews | Requirements informed |
 |---|---|---|
-| People may value seeing their own past activity and progress | Supported in the reviewed qualitative literature, including Sousa Basto & Ferreira (2025); not validated with this project's users | Provide a simple daily summary and seven-day history; show the source of each value |
-| Permission, privacy, and measurement accuracy may affect trust | Risks identified across the reviewed tracking-app literature and technical studies; local user expectations unknown | Request only needed data, offer manual entry when permission is denied, and label imported vs self-reported values |
-| Generic or poorly timed reminders may discourage some users | Prior activity-messaging study reports mixed reactions; local preference unknown | Make reminders optional and configurable; do not use guilt or punitive language |
-| Users may want a small set of meaningful activity goals | Candidate product hypothesis based on goal-tracking research; requires direct confirmation | Let users set and edit a goal without implying medical advice |
+| 3 (P01–P03) | All three wanted manual activity entry and an easy view of activity; two explicitly described goals/progress, while the third emphasized statistics and longer-term history | FR-02, FR-03, FR-04, FR-05 |
+| 3 (P01–P03) | Users described activities beyond automatically counted steps; the specific activity types differ | FR-02, FR-03 |
+| 3 (P01–P03) | Reminder preferences vary, from an evening or low-activity prompt to little interest in reminders | FR-06 (optional/configurable) |
+| 3 (P01–P03) | Health-data preferences differ; participants expressed limits around sharing personal or identity information | NFR-01; optional integrations require a separate decision |
 
-For the required discovery, record 3–5 anonymized participants (e.g., P01–P05), date/method, question themes, recurring findings, counterexamples, and resulting requirement IDs in `docs/research/interview-summary.md`. Do not claim a finding until it is actually observed.
+These findings are a small-sample summary, not prevalence claims. Individual requests for weight-loss or muscle-gain advice, heart/breathing measures, menstrual-cycle features, and multi-year charts are documented separately and are not treated as common requirements. The project will not prescribe health or weight-loss targets. Confirm dates/methods and consent status in the interview record; do not add names or identifying details.
 
-### Planned user discovery
+### User discovery and evidence status
 
-Conduct 3–5 semi-structured interviews with potential users, or document a substantive agreement with an actual client. Ask about current tracking practices, information users wish to see, abandoned tools, reminder preferences, privacy expectations, and accessibility needs. Record the date, participant code, method, consent status, verified finding, and resulting requirement. Do not include personally identifying details in the public repository.
+The required minimum of three discussions is recorded. If the team conducts one or two further discussions, add anonymized results to the same file and update this summary only where the evidence changes. A client agreement or process observation was not supplied.
 
-| Evidence item | Status | Record to add |
+| Evidence item | Status | Record |
 |---|---|---|
-| Potential-user interviews | Pending | `docs/research/interview-summary.md` (anonymized guide and results template) |
-| Client agreement or process observation | Pending / if applicable | `docs/research/client-evidence.md` |
-| Assumptions | Explicitly unvalidated | General adult user; activity and wellness data should be easy to review; privacy controls matter |
+| Potential-user interviews | 3 recorded; dates/methods and publication consent to confirm | [`docs/research/interview-summary.md`](docs/research/interview-summary.md) |
+| Client agreement or process observation | Not supplied; not needed if user interviews meet the brief | Add evidence only if obtained |
+| Remaining assumptions | Target age range, accessibility needs, platform, and optional health/wearable integrations remain unconfirmed | Confirm with team and supervisor |
 
 ## Aim, objectives, and expected outcomes
 
@@ -144,10 +144,10 @@ Priorities: **Must** = required for the proposed MVP; **Should** = desirable if 
 | ID | Priority | Requirement | Acceptance criteria |
 |---|---|---|---|
 | FR-01 | Must | Explain and request access to supported activity data | Before requesting OS permission, the app explains the data and purpose. If permission is denied or later revoked, the app remains usable and shows the source/access state. |
-| FR-02 | Must | Record an activity manually | User can enter activity type, date/time, and duration; invalid or missing required values are rejected with a clear message. |
-| FR-03 | Must | Show a daily activity summary | Summary shows available activity measures and labels their source (health platform, wearable/app sync, or manual). Missing data is shown as unavailable, never silently as zero. |
-| FR-04 | Must | Set and edit a personal activity goal | User can choose a supported measure and target; the current summary displays progress against it. |
-| FR-05 | Must | Review activity history and a weekly trend | User can view at least seven days of saved activity; a missing day is visually distinguishable from a measured zero. |
+| FR-02 | Must | Record and edit an activity manually | User can enter activity type, date/time, and duration, and edit or delete a saved manual entry. Optional distance is recorded only for activity types where the user can supply it. Invalid or missing required values are rejected with a clear message. |
+| FR-03 | Must | Show a daily activity summary | Summary shows today's available activity and labels each value's source (health platform, wearable/app sync, or manual). Missing data is shown as unavailable, never silently as zero; estimated values are identified as estimates. |
+| FR-04 | Must | Set and edit a personal activity goal | User can choose a supported measure and their own target; the current summary displays progress toward that user-set goal. The app does not calculate weight-loss or medically suitable targets. |
+| FR-05 | Must | Review activity history and a weekly trend | User can view at least seven days of saved activity; a missing day is visually distinguishable from a measured zero. Longer-term charts are a candidate enhancement pending scope and supervisor review. |
 | FR-06 | Should | Configure a reminder | User can opt in, choose a reminder time, and disable it; no notification is sent without permission. |
 | FR-07 | Should | Add optional user-entered wellness notes | User can skip the note; it is clearly self-reported and not presented as a diagnosis or sensor measurement. |
 | FR-08 | Must | Export and delete personal data | User can request deletion of local records and export a readable copy; the app confirms before irreversible deletion. |
@@ -156,7 +156,7 @@ Priorities: **Must** = required for the proposed MVP; **Should** = desirable if 
 
 | ID | Priority | Requirement | Acceptance criteria |
 |---|---|---|---|
-| NFR-01 Privacy | Must | Minimize and protect personal data | Collect only fields required by selected features; explain permissions; no location tracking by default; provide deletion/export path. |
+| NFR-01 Privacy | Must | Minimize and protect personal data | Collect only fields required by selected features; explain permissions; never request identity documents; location and health data integrations are off until explicitly enabled; provide deletion/export path. |
 | NFR-02 Reliability | Must | Work with missing permissions and intermittent connectivity | Core logging, history, and goals work offline; denied permissions do not crash or block manual entry. |
 | NFR-03 Data integrity | Must | Preserve source, date, and units for values | Each imported/manual entry has a timestamp, unit, and source label; duplicate imports are handled without double counting. |
 | NFR-04 Performance | Should | Keep common screens responsive | On the agreed test device, dashboard/history open within 2 seconds for at least 90% of 20 repeated trials with a populated 30-day history. |
@@ -268,7 +268,7 @@ Use GitHub or GitLab with incremental commits. Create YouTrack tasks with IDs an
 | Date | Deliverable | Status |
 |---|---|---|
 | 20 Oct | Confirm scope, inventory sources, draft README and requirements | Drafted here; team confirmation pending |
-| 21 Oct | Conduct 3–5 user discussions or obtain client agreement; revise assumptions | Pending; no findings supplied |
+| 21 Oct | Conduct 3–5 user discussions or obtain client agreement; revise assumptions | Three anonymized transcripts and preliminary synthesis recorded; confirm date/method/consent metadata and map findings into YouTrack |
 | 22 Oct | Decide platform/data source; review the created repository, YouTrack tasks, prototype, and editable diagrams | Draft artifacts created; team and supervisor review pending |
 | 23 Oct | Review requirements and evaluation plan with supervisor; address feedback; create checkpoint tag | Pending |
 | 24 Oct | Present proposal, literature and comparisons, requirements, diagrams, prototype, evaluation plan, tasks, and progressive repository evidence | Target checkpoint; not yet completed |
@@ -289,7 +289,7 @@ Use GitHub or GitLab with incremental commits. Create YouTrack tasks with IDs an
 
 | Task | Owner | Due date | Status |
 |---|---|---|---|
-| [MOV-1 — user interviews and scope validation](https://movewell.youtrack.cloud/issue/MOV-1/Conduct-user-interviews-and-validate-project-scope) | Aigerim | Confirm in YouTrack | Open; interviews not yet completed |
+| [MOV-1 — user interviews and scope validation](https://movewell.youtrack.cloud/issue/MOV-1/Conduct-user-interviews-and-validate-project-scope) | Aigerim | Confirm in YouTrack | Three transcripts recorded; verify acceptance criteria, metadata, and status in YouTrack |
 | [MOV-2 — literature review](https://movewell.youtrack.cloud/issue/MOV-2/Prepare-literature-review-on-mobile-physical-activity-apps) | Unassigned in YouTrack | 22 Oct 2026 | Open; assign an owner |
 | [MOV-3 — prototype review](https://movewell.youtrack.cloud/issue/MOV-3/Review-clickable-MoveWell-prototype-and-confirm-key-user-flows) | Aigerim | 23 Oct 2026 | Open |
 | [MOV-4 — editable architecture diagrams](https://movewell.youtrack.cloud/issue/MOV-4/Maintain-editable-architecture-diagrams-and-exported-views) | Danelya | 22 Oct 2026 | Open |
@@ -308,7 +308,8 @@ No supervisor comments were included in the materials reviewed. Record actual fe
 The README covers the proposal, literature review, product and technology comparisons, draft requirements, editable architecture diagrams, UX scenarios, evaluation plan, and project risks. The following evidence or team-specific details remain to complete the checkpoint package:
 
 - Confirm the proposed role split with all three members.
-- Conduct or document 3–5 user discussions, or attach client agreement; separate direct findings from assumptions.
+- Confirm the dates, methods, and consent-to-publish status for P01–P03; the minimum three discussions are recorded. Add one or two more only if the team wants broader evidence.
+- Link the interview summary and revised requirements to MOV-1; update its YouTrack status only after checking the actual acceptance criteria.
 - Confirm the target user group, mobile platform, team skills, and provisional technology decisions with the supervisor.
 - Review the clickable prototype and SVG diagram exports with the team and supervisor; record resulting changes.
 - Assign remaining YouTrack work, commit the files progressively, request review, and create the checkpoint tag when the submission is ready.
@@ -342,7 +343,7 @@ The analysis in this README provides the initial proposal, scope, literature rev
 - `docs/architecture/` — editable diagram sources and readable exports.
 - [`docs/prototype/index.html`](docs/prototype/index.html) — responsive, clickable concept prototype.
 - `docs/evaluation-plan.md` — approved verification and evaluation plan.
-- [`docs/research/interview-summary.md`](docs/research/interview-summary.md) — interview guide and anonymized results template; real findings pending.
+- [`docs/research/interview-summary.md`](docs/research/interview-summary.md) — interview guide, three anonymized translated transcripts, and preliminary synthesis; dates/methods/consent confirmation pending.
 - `config/` — safe configuration examples with placeholder values only.
 - `app/` — component-organized application code and dependency definitions.
 - `tests/` — automated and supporting test materials.
