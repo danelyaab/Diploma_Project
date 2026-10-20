@@ -13,7 +13,7 @@ This draft records the current proposal, interview evidence, and project decisio
 | Repository coordination, architecture, and technology comparison | Bekzhan Danelya | Approved |
 | UX prototype and verification/evaluation | Kazbek Aigerim | Approved |
 
-Each member should confirm or request a change. Record the final allocation and supervisor's comments in the approval table below. Each student should contribute using an individual Git account, and significant changes should be reviewed through a pull request.
+The team recorded these responsibilities as approved on 20 October 2026. Update the table if the team agrees to a change. Each student should contribute using an individual Git account, and significant changes should be reviewed through a pull request.
 
 ## User research evidence
 
@@ -21,7 +21,7 @@ Each member should confirm or request a change. Record the final allocation and 
 - **Date and format:** 20 October 2026, in person
 - **Participants:** P01–P03, anonymized
 - **Source:** `docs/research/interview-summary.md`
-- **Consent to publish anonymized notes:** Not confirmed. Do not publish the detailed notes publicly until participant consent is confirmed or access is restricted appropriately.
+- **Consent to publish detailed interview notes:** Not confirmed. The current public files contain only aggregate findings. Earlier public Git commits may retain the former detailed transcript text; current-file redaction does not remove content from repository history.
 - **Sample limitation:** Three interviews meet the minimum of three discussions, provided the participants meet the intended eligibility criteria. Confirm that they are adults and smartphone users before claiming that the target audience has been validated. One or two more interviews may broaden the evidence but are not required to meet the minimum.
 
 ### Findings and design implications
@@ -32,7 +32,7 @@ Each member should confirm or request a change. Record the final allocation and 
 | All three wanted to see activity records, summaries, or statistics over a period. | Provide a daily summary and activity history; start with a manageable seven-day view. | One participant requested multi-year statistics; defer longer history until scope and implementation time are confirmed. |
 | At least two participants explicitly described personal activity goals or progress toward a goal. | Let users set and edit their own activity goal and show progress. | Do not prescribe weight-loss or medically appropriate goals. |
 | Reminder preferences differed: one wanted an evening reminder, one wanted context-aware reminders on inactive days, and one rarely uses reminders. | If included, reminders should be optional and configurable. | Do not enable reminders by default or assume all users want them. |
-| Preferences about data sharing differed. One participant preferred limiting sharing to activity heart rate; another was open to several health measures and location; another was generally relaxed but did not want to provide identity documents. | Explain data sources and permissions; request only data needed for a user-selected feature. | The interviews do not establish a general privacy concern or justify collecting health/location data. Keep health measures and location out of the MVP unless separately justified and approved. |
+| Data-sharing preferences varied across participants. | Explain data sources and permissions; request only data needed for a user-selected feature. | The interviews do not establish a general privacy concern or justify collecting health/location data. Keep health measures and location out of the MVP unless separately justified and approved. |
 
 The interviews do **not** justify weight-loss or muscle-gain prescriptions, menstrual-cycle-based activity recommendations, clinical interpretation, or collection of broad health data. Treat these as out of scope for the initial release.
 

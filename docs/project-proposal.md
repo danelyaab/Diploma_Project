@@ -5,7 +5,7 @@
 
 ## Team and supervision
 
-| Member | Cohort | Proposed responsibility (confirm with the team) |
+| Member | Cohort | Approved responsibility |
 |---|---|---|
 | Maratova Oryngul | SE-2426 | Literature review, user discovery, and requirements |
 | Bekzhan Danelya | SE-2426 | Repository coordination, architecture, and technology comparison |
@@ -17,7 +17,7 @@
 People may have activity information spread across phone health platforms, fitness apps, and manual notes. Differences in device compatibility, missing or inaccurate measurements, unclear data sources, permission friction, and privacy concerns can make it hard to review personal trends. The project will test whether a simple activity log and history with transparent data provenance addresses a real user need.
 
 ## Provisional users and relevance
-The initial audience is adults who use a smartphone and want to record everyday activity and review personal trends. Three anonymized interview transcripts (P01–P03) are recorded in [`research/interview-summary.md`](research/interview-summary.md). The team confirmed that all three interviews took place in person on 20 October 2026. Across this small exploratory sample, participants wanted manual activity entry and a clear activity summary/history; reminder preferences and willingness to share health data varied. Consent to publish anonymized notes still needs confirmation. These findings do not establish population-wide needs. The project will prioritize user-set goals and activity logging, not medical or weight-loss prescriptions.
+The initial audience is adults who use a smartphone and want to record everyday activity and review personal trends. An aggregate summary of three exploratory interviews is recorded in [`research/interview-summary.md`](research/interview-summary.md). The team confirmed that all three interviews took place in person on 20 October 2026. Across this small sample, participants wanted manual activity entry and a clear activity summary/history; reminder and data-sharing preferences varied. Consent to publish detailed notes is unconfirmed, and participant eligibility checks are not documented. These findings do not establish population-wide needs. The project will prioritize user-set goals and activity logging, not medical or weight-loss prescriptions.
 
 ## Aim
 Design and implement a mobile app that supports recording physical activity and reviewing selected trends, with transparent data handling and measurable usability.
@@ -53,7 +53,7 @@ Design and implement a mobile app that supports recording physical activity and 
 - Replacing a trainer or clinician.
 
 ## Constraints and assumptions
-Platform and framework are not final. Health-data access depends on OS permissions and device support. User-research results are pending. Proposed team responsibilities require confirmation. The project checkpoint is 24 October 2026; the full application is not required at that checkpoint.
+Platform and framework are not final. Health-data access depends on OS permissions and device support. Interview findings are preliminary, and participant eligibility checks remain undocumented. Team responsibilities are recorded as approved in `research/decisions.md`. The project checkpoint is 24 October 2026; the full application is not required at that checkpoint.
 
 ## Links
 - [GitHub repository](https://github.com/danelyaab/Diploma_Project)
