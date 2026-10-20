@@ -294,7 +294,7 @@ Use GitHub or GitLab with incremental commits. Create YouTrack tasks with IDs an
 | [MOV-3 — prototype review](https://movewell.youtrack.cloud/issue/MOV-3/Review-clickable-MoveWell-prototype-and-confirm-key-user-flows) | Aigerim | 23 Oct 2026 | Open |
 | [MOV-4 — editable architecture diagrams](https://movewell.youtrack.cloud/issue/MOV-4/Maintain-editable-architecture-diagrams-and-exported-views) | Danelya | 22 Oct 2026 | Open |
 | [MOV-5 — supervisor review](https://movewell.youtrack.cloud/issue/MOV-5/Review-project-proposal-requirements-and-prototype-with-supervisor) | Oryngul | 23 Oct 2026 | Open |
-| [MOV-6 — document project decisions](https://movewell.youtrack.cloud/issue/MOV-6/Document-project-decisions) | Danelya | 22 Oct 2026 | Open; decision record and public research summary being aligned in this PR |
+| [MOV-6 — document project decisions](https://movewell.youtrack.cloud/issue/MOV-6/Document-project-decisions) · [PR #4](https://github.com/danelyaab/Diploma_Project/pull/4) | Danelya | 22 Oct 2026 | Open; review pending |
 
 ### Supervisor feedback and actions
 
