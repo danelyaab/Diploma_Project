@@ -2,7 +2,7 @@
 
 A student engineering project for a mobile application that helps users record physical activity, review personal trends, and keep selected wellness information in one place. The project is in the analysis and design phase. The application is not a medical device and will not diagnose, treat, or replace advice from a healthcare professional.
 
-> **Status:** Pre-defense planning draft for 24 October 2026. Three anonymized interview transcripts (P01–P03) and a preliminary synthesis are recorded. The team confirmed that all three interviews took place in person on 20 October 2026. Permission to publish the anonymized notes still needs confirmation. The sample is small and exploratory. Proposed role assignments and technology decisions need team/supervisor confirmation; supervisor review and runnable implementation remain pending.
+> **Status:** Pre-defense planning draft for 24 October 2026. An aggregate summary of three exploratory interviews is recorded; detailed participant-level transcripts are withheld because publication consent has not been confirmed. The team confirmed the interviews took place in person on 20 October 2026. The sample is small, and participant eligibility for the proposed target group still needs confirmation. Team responsibilities are recorded as approved in `docs/research/decisions.md`; technical choices remain provisional. Supervisor review and runnable implementation remain pending.
 
 ## Project at a glance
 
@@ -12,7 +12,7 @@ A student engineering project for a mobile application that helps users record p
 | Short name | Activity & Health Tracker (working name) |
 | Project type | Mobile health and fitness application |
 | Target users | Adults who want to record everyday activity and review personal wellness trends; the final user segment must be confirmed through interviews |
-| Team members | Maratova Oryngul (SE-2426, 241840@astanait.edu.kz); Bekzhan Danelya (SE-2426, 240379@astanait.edu.kz); Kazbek Aigerim (SE-2426, 241633@astanait.edu.kz). Proposed responsibilities are listed below and need team confirmation. |
+| Team members | Maratova Oryngul (SE-2426, 241840@astanait.edu.kz); Bekzhan Danelya (SE-2426, 240379@astanait.edu.kz); Kazbek Aigerim (SE-2426, 241633@astanait.edu.kz). Responsibilities are recorded in `docs/research/decisions.md`. |
 | Supervisor | Kamila Tanyrbergenova (kamila.tanyrbergenova@astanait.edu.kz) |
 | Repository | [GitHub: danelyaab/Diploma_Project](https://github.com/danelyaab/Diploma_Project) |
 | YouTrack | [MoveWell Agile board](https://movewell.youtrack.cloud/agiles/204-1/current) |
@@ -27,9 +27,9 @@ The project investigates whether a focused mobile application can make activity 
 
 ## Target users and evidence status
 
-The provisional user group is adults who use a smartphone and want to record everyday physical activity and review personal trends. Three anonymized interview transcripts are recorded in [`docs/research/interview-summary.md`](docs/research/interview-summary.md). The target age range, accessibility needs, preferred platform, and wearable requirements have not been established.
+The provisional user group is adults who use a smartphone and want to record everyday physical activity and review personal trends. An aggregate summary of three interviews is recorded in [`docs/research/interview-summary.md`](docs/research/interview-summary.md). The notes do not document age or smartphone eligibility checks; these must be confirmed before claiming that the target audience has been validated. Preferred platform and wearable requirements are also unsettled.
 
-**User-validation status:** Three participant interviews (P01–P03) are recorded, meeting the minimum of three discussions in the checkpoint brief. The team confirmed the date/method as 20 October 2026 / in person for all three. Consent to publish anonymized notes still needs confirmation. Treat findings as exploratory, not representative; one or two additional discussions are optional to broaden the evidence.
+**User-validation status:** Three participant interviews are summarized, meeting the minimum count of three discussions. The team confirmed the date/method as 20 October 2026 / in person for all three. Detailed transcripts are withheld from the current files because publication consent is unconfirmed. Treat findings as exploratory, not representative; confirm participant eligibility before claiming target-group validation. One or two additional discussions are optional to broaden the evidence.
 
 | Interview count | Recurring finding across these interviews | Requirements informed |
 |---|---|---|
@@ -38,7 +38,7 @@ The provisional user group is adults who use a smartphone and want to record eve
 | 3 (P01–P03) | Reminder preferences vary, from an evening or low-activity prompt to little interest in reminders | FR-06 (optional/configurable) |
 | 3 (P01–P03) | Health-data preferences differ; participants expressed limits around sharing personal or identity information | NFR-01; optional integrations require a separate decision |
 
-These findings are a small-sample summary, not prevalence claims. Individual requests for weight-loss or muscle-gain advice, heart/breathing measures, menstrual-cycle features, and multi-year charts are documented separately and are not treated as common requirements. The project will not prescribe health or weight-loss targets. Confirm consent status before merging the full transcripts into the public repository; do not add names or identifying details.
+These findings are a small-sample summary, not prevalence claims. Specific health-related requests and longer-term visualization preferences are not treated as shared requirements. The project will not prescribe health or weight-loss targets. Consent to publish detailed transcripts has not been confirmed; current files contain only aggregate findings. Earlier public commits still contain the former detailed version, so full removal from public history would require a separate repository-history decision.
 
 ### User discovery and evidence status
 
@@ -46,7 +46,7 @@ The required minimum of three discussions is recorded. If the team conducts one 
 
 | Evidence item | Status | Record |
 |---|---|---|
-| Potential-user interviews | 3 recorded on 20 Oct 2026 / in person; publication consent to confirm | [`docs/research/interview-summary.md`](docs/research/interview-summary.md) |
+| Potential-user interviews | 3 summarized; 20 Oct 2026 / in person; participant eligibility and publication consent to confirm | [`docs/research/interview-summary.md`](docs/research/interview-summary.md) |
 | Client agreement or process observation | Not supplied; not needed if user interviews meet the brief | Add evidence only if obtained |
 | Remaining assumptions | Target age range, accessibility needs, platform, and optional health/wearable integrations remain unconfirmed | Confirm with team and supervisor |
 
@@ -261,14 +261,14 @@ No health improvement or causal effect is claimed. The MVP evaluation assesses i
 
 Use GitHub or GitLab with incremental commits. Create YouTrack tasks with IDs and link each task to a branch, commit, and merge request/pull request. Review changes before merging. Keep diagrams in editable text formats and export images for the presentation. Add `.gitignore` for build output, IDE files, local configuration, and secrets; never commit credentials or real participant health data. Proposed pre-defense tags: `pre-defense-1`, `pre-defense-2`, and `final-pre-defense`.
 
-**Repository URL:** https://github.com/danelyaab/Diploma_Project. **YouTrack URL:** https://movewell.youtrack.cloud/agiles/204-1/current. **Supervisor:** Kamila Tanyrbergenova. Proposed role split (confirm with the team): Maratova Oryngul — literature review, user research, and requirements; Bekzhan Danelya — repository coordination, architecture, and technology evaluation; Kazbek Aigerim — UX prototype and verification/evaluation. These are proposed allocations, not confirmed assignments.
+**Repository URL:** https://github.com/danelyaab/Diploma_Project. **YouTrack URL:** https://movewell.youtrack.cloud/agiles/204-1/current. **Supervisor:** Kamila Tanyrbergenova. The team approved the following responsibilities in [`docs/research/decisions.md`](docs/research/decisions.md): Maratova Oryngul — literature review, user research, and requirements; Bekzhan Danelya — repository coordination, architecture, and technology evaluation; Kazbek Aigerim — UX prototype and verification/evaluation.
 
 ### Proposed milestones for the 24 October 2026 checkpoint
 
 | Date | Deliverable | Status |
 |---|---|---|
 | 20 Oct | Confirm scope, inventory sources, draft README and requirements | Drafted here; team confirmation pending |
-| 21 Oct | Conduct 3–5 user discussions or obtain client agreement; revise assumptions | Three anonymized transcripts and preliminary synthesis recorded; confirm date/method/consent metadata and map findings into YouTrack |
+| 21 Oct | Conduct 3–5 user discussions or obtain client agreement; revise assumptions | Three interviews summarized; date and in-person format confirmed; eligibility and publication consent remain to confirm; MOV-1 is Done |
 | 22 Oct | Decide platform/data source; review the created repository, YouTrack tasks, prototype, and editable diagrams | Draft artifacts created; team and supervisor review pending |
 | 23 Oct | Review requirements and evaluation plan with supervisor; address feedback; create checkpoint tag | Pending |
 | 24 Oct | Present proposal, literature and comparisons, requirements, diagrams, prototype, evaluation plan, tasks, and progressive repository evidence | Target checkpoint; not yet completed |
@@ -289,11 +289,12 @@ Use GitHub or GitLab with incremental commits. Create YouTrack tasks with IDs an
 
 | Task | Owner | Due date | Status |
 |---|---|---|---|
-| [MOV-1 — user interviews and scope validation](https://movewell.youtrack.cloud/issue/MOV-1/Conduct-user-interviews-and-validate-project-scope) · [PR #3](https://github.com/danelyaab/Diploma_Project/pull/3) | Aigerim | Confirm in YouTrack | Three in-person interviews recorded for 20 Oct 2026; PR review requested; confirm publication consent and update status in YouTrack |
-| [MOV-2 — literature review](https://movewell.youtrack.cloud/issue/MOV-2/Prepare-literature-review-on-mobile-physical-activity-apps) | Danelya | 22 Oct 2026 | Open |
+| [MOV-1 — user interviews and scope validation](https://movewell.youtrack.cloud/issue/MOV-1/Conduct-user-interviews-and-validate-project-scope) · [PR #3](https://github.com/danelyaab/Diploma_Project/pull/3) | Aigerim | Not set | Done in YouTrack. Three interviews summarized; participant eligibility and consent to publish detailed notes remain unconfirmed. |
+| [MOV-2 — literature review](https://movewell.youtrack.cloud/issue/MOV-2/Prepare-literature-review-on-mobile-physical-activity-apps) | Danelya | 22 Oct 2026 | Done in YouTrack |
 | [MOV-3 — prototype review](https://movewell.youtrack.cloud/issue/MOV-3/Review-clickable-MoveWell-prototype-and-confirm-key-user-flows) | Aigerim | 23 Oct 2026 | Open |
 | [MOV-4 — editable architecture diagrams](https://movewell.youtrack.cloud/issue/MOV-4/Maintain-editable-architecture-diagrams-and-exported-views) | Danelya | 22 Oct 2026 | Open |
 | [MOV-5 — supervisor review](https://movewell.youtrack.cloud/issue/MOV-5/Review-project-proposal-requirements-and-prototype-with-supervisor) | Oryngul | 23 Oct 2026 | Open |
+| [MOV-6 — document project decisions](https://movewell.youtrack.cloud/issue/MOV-6/Document-project-decisions) | Danelya | 22 Oct 2026 | Open; decision record and public research summary being aligned in this PR |
 
 ### Supervisor feedback and actions
 
@@ -307,12 +308,12 @@ No supervisor comments were included in the materials reviewed. Record actual fe
 
 The README covers the proposal, literature review, product and technology comparisons, draft requirements, editable architecture diagrams, UX scenarios, evaluation plan, and project risks. The following evidence or team-specific details remain to complete the checkpoint package:
 
-- Confirm the proposed role split with all three members.
-- Confirm participants' consent to publish anonymized notes for P01–P03; date/method metadata are recorded as 20 Oct 2026 / in person. Add one or two more only if the team wants broader evidence.
-- Link the interview summary and revised requirements to MOV-1; update its YouTrack status only after checking the actual acceptance criteria.
+- Confirm participant eligibility (adult smartphone users) without adding identifying details. Publication consent for detailed notes remains unconfirmed; the current public files contain only an aggregate summary.
+- Keep MOV-1 recorded as Done according to YouTrack; the later consent and eligibility follow-up is documented separately and should not be presented as completed evidence.
+- Complete MOV-6 through review of the decision record and this linked pull request; keep it open until its acceptance criteria are reviewed.
 - Confirm the target user group, mobile platform, team skills, and provisional technology decisions with the supervisor.
 - Review the clickable prototype and SVG diagram exports with the team and supervisor; record resulting changes.
-- Assign remaining YouTrack work, commit the files progressively, request review, and create the checkpoint tag when the submission is ready.
+- Review and merge the MOV-6 pull request after team review; create the checkpoint tag when the submission is ready.
 - Record real supervisor feedback and the action taken.
 - Once an app exists, add run instructions, environment requirements, and test results; no runnable implementation is represented as complete here.
 
@@ -343,7 +344,8 @@ The analysis in this README provides the initial proposal, scope, literature rev
 - `docs/architecture/` — editable diagram sources and readable exports.
 - [`docs/prototype/index.html`](docs/prototype/index.html) — responsive, clickable concept prototype.
 - `docs/evaluation-plan.md` — approved verification and evaluation plan.
-- [`docs/research/interview-summary.md`](docs/research/interview-summary.md) — interview guide, three anonymized translated transcripts, and preliminary synthesis; dates/methods/consent confirmation pending.
+- [`docs/research/interview-summary.md`](docs/research/interview-summary.md) — interview guide and preliminary aggregate summary of three interviews. Detailed transcripts are withheld pending consent; dates and in-person format were confirmed as 20 October 2026. Earlier public commits may retain prior transcript text.
+- [`docs/research/decisions.md`](docs/research/decisions.md) — decision record for research evidence, responsibilities, scope, and technical choices.
 - `config/` — safe configuration examples with placeholder values only.
 - `app/` — component-organized application code and dependency definitions.
 - `tests/` — automated and supporting test materials.
