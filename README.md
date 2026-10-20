@@ -289,7 +289,7 @@ Use GitHub or GitLab with incremental commits. Create YouTrack tasks with IDs an
 
 | Task | Owner | Due date | Status |
 |---|---|---|---|
-| [MOV-1 — user interviews and scope validation](https://movewell.youtrack.cloud/issue/MOV-1/Conduct-user-interviews-and-validate-project-scope) | Aigerim | Confirm in YouTrack | Three transcripts recorded; verify acceptance criteria, metadata, and status in YouTrack |
+| [MOV-1 — user interviews and scope validation](https://movewell.youtrack.cloud/issue/MOV-1/Conduct-user-interviews-and-validate-project-scope) · [PR #3](https://github.com/danelyaab/Diploma_Project/pull/3) | Aigerim | Confirm in YouTrack | Three transcripts recorded; PR review requested; verify acceptance criteria, metadata, and status in YouTrack |
 | [MOV-2 — literature review](https://movewell.youtrack.cloud/issue/MOV-2/Prepare-literature-review-on-mobile-physical-activity-apps) | Unassigned in YouTrack | 22 Oct 2026 | Open; assign an owner |
 | [MOV-3 — prototype review](https://movewell.youtrack.cloud/issue/MOV-3/Review-clickable-MoveWell-prototype-and-confirm-key-user-flows) | Aigerim | 23 Oct 2026 | Open |
 | [MOV-4 — editable architecture diagrams](https://movewell.youtrack.cloud/issue/MOV-4/Maintain-editable-architecture-diagrams-and-exported-views) | Danelya | 22 Oct 2026 | Open |
