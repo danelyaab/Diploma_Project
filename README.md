@@ -2,7 +2,7 @@
 
 A student engineering project for a mobile application that helps users record physical activity, review personal trends, and keep selected wellness information in one place. The project is in the analysis and design phase. The application is not a medical device and will not diagnose, treat, or replace advice from a healthcare professional.
 
-> **Status:** Pre-defense planning draft for 24 October 2026. Three anonymized interview transcripts (P01–P03) and a preliminary synthesis are now recorded. The interview dates/methods and permission to publish the anonymized notes still need confirmation. The sample is small and exploratory. Proposed role assignments and technology decisions need team/supervisor confirmation; supervisor review and runnable implementation remain pending.
+> **Status:** Pre-defense planning draft for 24 October 2026. Three anonymized interview transcripts (P01–P03) and a preliminary synthesis are recorded. The team confirmed that all three interviews took place in person on 20 October 2026. Permission to publish the anonymized notes still needs confirmation. The sample is small and exploratory. Proposed role assignments and technology decisions need team/supervisor confirmation; supervisor review and runnable implementation remain pending.
 
 ## Project at a glance
 
@@ -29,7 +29,7 @@ The project investigates whether a focused mobile application can make activity 
 
 The provisional user group is adults who use a smartphone and want to record everyday physical activity and review personal trends. Three anonymized interview transcripts are recorded in [`docs/research/interview-summary.md`](docs/research/interview-summary.md). The target age range, accessibility needs, preferred platform, and wearable requirements have not been established.
 
-**User-validation status:** Three participant interviews (P01–P03) are recorded, meeting the minimum of three discussions in the checkpoint brief. Dates, interview methods, and consent to publish anonymized notes were not included in the supplied material and must be confirmed. Treat findings as exploratory, not representative; one or two additional discussions are optional to broaden the evidence.
+**User-validation status:** Three participant interviews (P01–P03) are recorded, meeting the minimum of three discussions in the checkpoint brief. The team confirmed the date/method as 20 October 2026 / in person for all three. Consent to publish anonymized notes still needs confirmation. Treat findings as exploratory, not representative; one or two additional discussions are optional to broaden the evidence.
 
 | Interview count | Recurring finding across these interviews | Requirements informed |
 |---|---|---|
@@ -38,7 +38,7 @@ The provisional user group is adults who use a smartphone and want to record eve
 | 3 (P01–P03) | Reminder preferences vary, from an evening or low-activity prompt to little interest in reminders | FR-06 (optional/configurable) |
 | 3 (P01–P03) | Health-data preferences differ; participants expressed limits around sharing personal or identity information | NFR-01; optional integrations require a separate decision |
 
-These findings are a small-sample summary, not prevalence claims. Individual requests for weight-loss or muscle-gain advice, heart/breathing measures, menstrual-cycle features, and multi-year charts are documented separately and are not treated as common requirements. The project will not prescribe health or weight-loss targets. Confirm dates/methods and consent status in the interview record; do not add names or identifying details.
+These findings are a small-sample summary, not prevalence claims. Individual requests for weight-loss or muscle-gain advice, heart/breathing measures, menstrual-cycle features, and multi-year charts are documented separately and are not treated as common requirements. The project will not prescribe health or weight-loss targets. Confirm consent status before merging the full transcripts into the public repository; do not add names or identifying details.
 
 ### User discovery and evidence status
 
@@ -46,7 +46,7 @@ The required minimum of three discussions is recorded. If the team conducts one 
 
 | Evidence item | Status | Record |
 |---|---|---|
-| Potential-user interviews | 3 recorded; dates/methods and publication consent to confirm | [`docs/research/interview-summary.md`](docs/research/interview-summary.md) |
+| Potential-user interviews | 3 recorded on 20 Oct 2026 / in person; publication consent to confirm | [`docs/research/interview-summary.md`](docs/research/interview-summary.md) |
 | Client agreement or process observation | Not supplied; not needed if user interviews meet the brief | Add evidence only if obtained |
 | Remaining assumptions | Target age range, accessibility needs, platform, and optional health/wearable integrations remain unconfirmed | Confirm with team and supervisor |
 
@@ -289,7 +289,7 @@ Use GitHub or GitLab with incremental commits. Create YouTrack tasks with IDs an
 
 | Task | Owner | Due date | Status |
 |---|---|---|---|
-| [MOV-1 — user interviews and scope validation](https://movewell.youtrack.cloud/issue/MOV-1/Conduct-user-interviews-and-validate-project-scope) · [PR #3](https://github.com/danelyaab/Diploma_Project/pull/3) | Aigerim | Confirm in YouTrack | Three transcripts recorded; PR review requested; verify acceptance criteria, metadata, and status in YouTrack |
+| [MOV-1 — user interviews and scope validation](https://movewell.youtrack.cloud/issue/MOV-1/Conduct-user-interviews-and-validate-project-scope) · [PR #3](https://github.com/danelyaab/Diploma_Project/pull/3) | Aigerim | Confirm in YouTrack | Three in-person interviews recorded for 20 Oct 2026; PR review requested; confirm publication consent and update status in YouTrack |
 | [MOV-2 — literature review](https://movewell.youtrack.cloud/issue/MOV-2/Prepare-literature-review-on-mobile-physical-activity-apps) | Unassigned in YouTrack | 22 Oct 2026 | Open; assign an owner |
 | [MOV-3 — prototype review](https://movewell.youtrack.cloud/issue/MOV-3/Review-clickable-MoveWell-prototype-and-confirm-key-user-flows) | Aigerim | 23 Oct 2026 | Open |
 | [MOV-4 — editable architecture diagrams](https://movewell.youtrack.cloud/issue/MOV-4/Maintain-editable-architecture-diagrams-and-exported-views) | Danelya | 22 Oct 2026 | Open |
@@ -308,7 +308,7 @@ No supervisor comments were included in the materials reviewed. Record actual fe
 The README covers the proposal, literature review, product and technology comparisons, draft requirements, editable architecture diagrams, UX scenarios, evaluation plan, and project risks. The following evidence or team-specific details remain to complete the checkpoint package:
 
 - Confirm the proposed role split with all three members.
-- Confirm the dates, methods, and consent-to-publish status for P01–P03; the minimum three discussions are recorded. Add one or two more only if the team wants broader evidence.
+- Confirm participants' consent to publish anonymized notes for P01–P03; date/method metadata are recorded as 20 Oct 2026 / in person. Add one or two more only if the team wants broader evidence.
 - Link the interview summary and revised requirements to MOV-1; update its YouTrack status only after checking the actual acceptance criteria.
 - Confirm the target user group, mobile platform, team skills, and provisional technology decisions with the supervisor.
 - Review the clickable prototype and SVG diagram exports with the team and supervisor; record resulting changes.

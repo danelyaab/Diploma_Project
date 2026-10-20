@@ -1,10 +1,10 @@
 # User discovery: interview protocol and results
 
 ## Status
-**Three participant interviews are represented in the notes below (P01–P03).** The dates, interview methods, and consent-to-publication status were not included in the material supplied for this draft and must be confirmed by the team. Findings are preliminary and exploratory; they are not representative of all potential users. The minimum of three discussions is met, while one or two additional discussions may broaden the evidence.
+**Three participant interviews are represented in the notes below (P01–P03).** The team confirmed the date and format as **20 October 2026, in person** for all three interviews. Consent to publish the anonymized notes was not specified and must be confirmed. Findings are preliminary and exploratory; they are not representative of all potential users. The minimum of three discussions is met, while one or two additional discussions may broaden the evidence.
 
 ## Method and protocol
-The supplied notes do not state the date or method used for P01–P03, so those details are marked as unavailable rather than inferred. For any additional discussions, use short semi-structured conversations with adults who use a smartphone. Ask about current activity tracking, missing readings, goals, reminder preferences, data permissions/privacy, and accessibility. Use open-ended questions and avoid leading participants toward MoveWell features. Participation should be voluntary. Do not collect names, email addresses, diagnoses, or identifying health details in the public repository.
+P01–P03 were conducted in person on 20 October 2026, as confirmed by the team. For any additional discussions, use short semi-structured conversations with adults who use a smartphone. Ask about current activity tracking, missing readings, goals, reminder preferences, data permissions/privacy, and accessibility. Use open-ended questions and avoid leading participants toward MoveWell features. Participation should be voluntary. Do not collect names, email addresses, diagnoses, or identifying health details in the public repository.
 
 ## Interview guide
 1. How do you currently keep track of physical activity, if at all?
@@ -21,13 +21,13 @@ The supplied notes do not state the date or method used for P01–P03, so those 
 
 | Participant code | Date/method | Need or observation (preliminary; recurrence is summarized below) | Counterexample / difference | Requirement IDs affected |
 |---|---|---|---|---|
-| P01 | Not provided | Does not currently track activity; wants manual activity entry, a daily goal/progress view, an evening reminder, and limited health-data sharing (heart rate only) | No separate answer to the manual-entry prompt; wants weight-loss-related guidance, which is outside the MVP's non-medical scope | FR-02, FR-03, FR-04, FR-06; NFR-01, NFR-07 |
-| P02 | Not provided | Uses Apple Health; wants to add activities the phone misses, see cycling distance and stair climbing, and review daily/weekly progress | Accepts location and several health measures but rejects personal documents; reminder usefulness depends on timing/activity; mentions menstrual-cycle information and weight goals as individual feature requests | FR-02, FR-03, FR-04, FR-05, FR-06; NFR-01, NFR-07 |
-| P03 | Not provided | Uses iOS Fitness and a gym app; values activity history, manually editable records, and longer-term statistics and graphs | Does not routinely use reminders; relies on phone availability; would rather not share identity-document details but may provide information if required | FR-02, FR-03, FR-05, FR-06; NFR-01, NFR-02, NFR-03 |
+| P01 | 20 October 2026 / in person | Does not currently track activity; wants manual activity entry, a daily goal/progress view, an evening reminder, and limited health-data sharing (heart rate only) | No separate answer to the manual-entry prompt; wants weight-loss-related guidance, which is outside the MVP's non-medical scope | FR-02, FR-03, FR-04, FR-06; NFR-01, NFR-07 |
+| P02 | 20 October 2026 / in person | Uses Apple Health; wants to add activities the phone misses, see cycling distance and stair climbing, and review daily/weekly progress | Accepts location and several health measures but rejects personal documents; reminder usefulness depends on timing/activity; mentions menstrual-cycle information and weight goals as individual feature requests | FR-02, FR-03, FR-04, FR-05, FR-06; NFR-01, NFR-07 |
+| P03 | 20 October 2026 / in person | Uses iOS Fitness and a gym app; values activity history, manually editable records, and longer-term statistics and graphs | Does not routinely use reminders; relies on phone availability; would rather not share identity-document details but may provide information if required | FR-02, FR-03, FR-05, FR-06; NFR-01, NFR-02, NFR-03 |
 | P04 (optional) | Pending | Pending | Pending | Pending |
 | P05 (optional) | Pending | Pending | Pending | Pending |
 
-Dates, interview modes, and confirmation that participants agreed to public use of anonymized notes were not supplied. Add these details only after checking the original records; do not infer or invent them. Do not add names, contact details, or identifying health information.
+The team confirmed the date and in-person format for all three interviews. Confirmation that participants agreed to public use of anonymized notes was not supplied; check this before merging the full transcripts into the public repository. Do not add names, contact details, or identifying health information.
 
 ## Interview transcripts (anonymized, lightly edited translations)
 
