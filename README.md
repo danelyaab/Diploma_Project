@@ -410,11 +410,5 @@ The analysis in this README provides the initial proposal, scope, literature rev
 
 The prototype and architecture diagram source/export folders are included in this repository. The remaining planned document paths are not claimed to exist until their files are added.
 
-## Supplied-file inventory and duplicate check
 
-The file-level check found 12 supplied PDF files and 11 distinct PDF documents. The following two files are byte-for-byte identical (same SHA-256), so they represent one source in the 12-publication literature review:
 
-- `tong-et-al-2022-a-personalized-mobile-app-for-physical-activity-an-experimental-mixed-methods-study.pdf`
-- `tong-et-al-2022-a-personalized-mobile-app-for-physical-activity-an-experimental-mixed-methods-study (1).pdf`
-
-The remaining distinct supplied PDFs map to these sources: `paper22.pdf` — Stepanyuk et al. (2025); `s41598-025-22743-3.pdf` — Alqahtani et al. (2025); `ijerph-22-01460-v2.pdf` — Papale et al. (2025); `s10209-022-00962-z.pdf` — Figueroa et al. (2024 issue; online 2023); `axioms-11-00346.pdf` — Vairavasundaram et al. (2022); `sensors-23-07917.pdf` — Emish et al. (2023); `EBSCO-FullText-10_20_2026 (2).pdf` — Aldossari et al. (2023); `s12913-025-12489-z.pdf` — Sousa Basto and Ferreira (2025); `EBSCO-FullText-10_20_2026 (1).pdf` — Uyan et al. (2026, CardioFit); and `EBSCO-FullText-10_20_2026.pdf` — Martínez-García et al. (2017). The Boulos and Yang (2021) overview was shared earlier as a link and is included as the twelfth, foundational publication; it is not one of these supplied PDFs.
