@@ -317,22 +317,80 @@ The README covers the proposal, literature review, product and technology compar
 - Record real supervisor feedback and the action taken.
 - Once an app exists, add run instructions, environment requirements, and test results; no runnable implementation is represented as complete here.
 
-## References and product documentation
+## Repository Workflow
 
-The scientific sources used in the review are linked in the literature table above. Product documentation used for the comparison is linked in the existing-system section. DOI links lead to the publication record; consult the full article for details before reusing quantitative findings.
+The repository is the project's main record from the first checkpoint through the final defense. It can be private, provided access is available to the team and supervisor, and to the committee before each pre-defense. Each student should use an individual account so contributions can be identified.
 
-## Repository workflow required by the project brief
+### Branching and Task Management
 
-The repository is the continuing project record and should remain the same from the first checkpoint through the final defense. It may be private, but grant access to every team member and the supervisor, and grant the committee access before each pre-defense. Each student contributes from an individual account with identifiable commit author details; do not use a shared account.
+- The `main` branch serves as the reviewed baseline.
+- Project work is organized in task branches named with the relevant YouTrack ID, for example, `DIP-23-database-schema`.
+- YouTrack tasks include:
+  - Owner
+  - Expected outcome
+  - Acceptance criteria
+  - Deadline
+- Branches, commits, and pull requests refer to the task ID.
+- Completed work is linked back to the corresponding task.
 
-Keep `main` as the reviewed baseline. Work in separate task branches named with the YouTrack ID (for example, `DIP-23-database-schema`). Each meaningful task must state an owner, expected outcome, acceptance criteria, and deadline in YouTrack. Put the task ID in branch names and commit or pull/merge request descriptions, and link the completed review or commit back to the task. Use coherent descriptive commits as work is completed, including documentation and design. Do not mark a task complete before its acceptance criteria are met. Each pull/merge request should summarize the change, link the task, and describe how it was checked; for a team, request another member's review, and for an individual project, have the supervisor review selected significant changes at agreed checkpoints.
+### Pull Requests and Reviews
 
-For each submission, retain the tag `pre-defense-1`, `pre-defense-2`, or `final-pre-defense` on the exact submitted version. Do not move or replace an existing tag. Provide the repository URL, tag, completed work, limitations, and outstanding tasks with each submission. During the defense, be ready to trace a YouTrack task to the resulting deliverable, show contribution history and review comments, and demonstrate how the available app is run and tested.
+- Pull requests describe the change and how it was checked.
+- Team members review one another's work.
+- For individual contributions, the supervisor reviews significant changes at agreed checkpoints.
+- Tasks are marked complete after their acceptance criteria have been met.
 
-## Setup, execution, and testing
+### Submission Tags
 
-**Current status:** No runnable application source or finalized dependency set was supplied with the materials reviewed, so there are no honest install, run, or test commands to report yet. Add exact commands here as soon as the first runnable application commit is made. At that time include the required SDK/runtime versions, dependency installation, platform-specific configuration, launch command, test command, and expected result. Keep secrets out of the repository and provide only placeholder values in any configuration example.
+Submissions are identified by the following tags:
 
+- `pre-defense-1`
+- `pre-defense-2`
+- `final-pre-defense`
+
+Each tag refers to the submitted version.
+
+Submission details include:
+
+- Repository URL
+- Submission tag
+- Completed work
+- Limitations
+- Outstanding tasks
+
+During the defense, the team can demonstrate:
+
+- Connections between tasks and deliverables
+- Review comments
+- Contribution history
+- Application setup and tests (when available)
+
+## Setup, Execution, and Testing
+
+The project does not yet have a runnable application or a finalized set of dependencies, so setup and test commands are not available.
+
+Once the first runnable version is added, this section will include:
+
+1. **Requirements**
+   - Required SDK or runtime versions
+   - Necessary development tools
+
+2. **Installation**
+   - Dependency installation instructions
+   - Platform-specific configuration
+
+3. **Execution**
+   - Application launch commands
+   - Expected execution results
+
+4. **Testing**
+   - Test commands
+   - Expected test results
+
+### Configuration and Security
+
+- Configuration examples will use placeholder values.
+- Secrets and sensitive credentials will not be stored in the repository.
 ## Documentation map
 
 The analysis in this README provides the initial proposal, scope, literature review, system comparison, technology comparison, requirements, architecture draft, UX scenarios, and evaluation plan. As the repository is created, split and link the reviewed artifacts here:
